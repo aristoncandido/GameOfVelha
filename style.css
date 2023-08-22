@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: chartreuse;
+    padding-top: 2%;
+   height: 100vh;
+}
+header{
+    width: 100%;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25pt;
+     display: flex;
+     color: rgb(85, 0, 255);
+     text-shadow: 0px 0px 1px black;
+
+     align-content: center;
+
+}
+header h1 {
+    width: 50%;
+    margin: 0 auto;
+
+}
+
+
+.conteiner{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.jogo{
+    
+    width:60%;
+    height: 80%;
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.linha{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    height:33%;
+
+
+
+}
+
+.bloco{
+    box-shadow: 0px 0px 15px black;
+    transition: 0.5s;
+    width: 30%;
+    font-size: 105pt;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0, 35, 10);
+    color: white;
+    margin-top: 2%;
+    border-radius: 17pt;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.bloco:hover{
+    cursor: pointer;
+}
+
+.bttns{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+input{
+    height: 15%;
+    width:15%;
+    font-size: 35pt;
+    background-color: darkgreen;
+    color: white;
+    box-shadow: 0px 0px 5px black;
+    margin-left: 5%;
+    transition: 0.2s;
+}
+input:hover{
+    cursor: pointer;
+    background-color: white;
+    color: green;
+}
